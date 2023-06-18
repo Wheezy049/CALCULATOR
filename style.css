@@ -42,3 +42,24 @@ form .display input{
 form .equal{
  width: 145px;
 }
+
+@media screen and (max-width:498px) {
+ .calculator{
+  padding: 13px;
+ }
+ .calculator input{
+ margin: 7px;
+ width: 40px;
+ height: 40px;
+ font-size: 15px;
+}
+form .display{
+ margin: 15px 0;
+}
+form .display input{
+ font-size: 30px;
+}
+form .equal{
+ width: 100px;
+}
+}
